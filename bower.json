@@ -1,0 +1,40 @@
+{
+  "name": "meroarbolweb",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "^1.4.0",
+    "bootstrap": "^3.2.0",
+    "angular-animate": "^1.4.0",
+    "angular-cookies": "^1.4.0",
+    "angular-resource": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "angular-smart-table": "^2.1.7"
+  },
+  "install": {
+    "path": {
+      "js": "app/js"
+    },
+    "sources": {
+      "jquery-ui": [
+        "components/jquery-ui/ui/jquery-ui.custom.js",
+        "components/jquery-ui/themes/start/jquery-ui.css"
+      ]
+    }
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.0"
+  },
+  "appPath": "app",
+  "moduleName": "meroarbolwebApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<div class="jumbotron">
+  <h4>Remitos</h4>
+  <table st-table="rowCollection" class="table table-striped table-bordered">
+    <thead>
+    <tr>
+      <th></th>
+      <th>Número remito</th>
+      <th>Descripción</th>
+      <th>Estado</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr ng-repeat="row in rowCollection">
+      <td style="width: 57px;"><a href="#/remitos" title="Editar remito"> <span class="glyphicon glyphicon-edit glyphicon-align-left" aria-hidden="true"></span> </a>&nbsp;<a href="#/remitos" title="Borrar remito"> <span class="glyphicon glyphicon-erase glyphicon-align-left" aria-hidden="true"></span></a></td>
+      <td>{{row.numeroRemito}}</td>
+      <td>{{row.descripcion}}</td>
+      <td>{{row.estado}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>
